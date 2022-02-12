@@ -12,19 +12,19 @@ class Header extends HTMLElement{
             <div>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Menu</a>
+                        <a class="nav-link" href="menu.html">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Catering</a>
+                        <a class="nav-link" href="catering.html">Catering</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Join our team</a>
+                        <a class="nav-link" href="join.html">Join our team</a>
                      </li>
                 </ul>
             </div>
