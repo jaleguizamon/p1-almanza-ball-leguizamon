@@ -5,12 +5,12 @@ class Header extends HTMLElement{
 
     connectedCallback() {
         this.innerHTML = `
-        <header>
-            <div>
-                <p>Logo goes here</p>
+        <header class="row">
+            <div class="col-2">
+                <a href="index.html"><img src="img/HarveyLogo.png" alt="Harvey Logo" class="img-fluid"></a>
             </div>
-            <div>
-                <ul class="nav justify-content-end">
+            <div class="col-10 navDiv">
+                <ul class="nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
