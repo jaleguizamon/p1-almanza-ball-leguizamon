@@ -5,17 +5,17 @@ class Footer extends HTMLElement{
 
     connectedCallback() {
         this.innerHTML = `
-        <footer>
-            <div>
+        <footer class="row">
+            <div class="col-2 socialDiv">
                 <div>
-                    <p>Social Icon</p>
+                    <a href="https://www.facebook.com/theharveybakeryokc" target="_blank"><img src="img/facebookIcon.png" alt="Facebook" class="img-fluid"></a>
                 </div>
                 <div>
-                    <p>Social Icon</p>
+                    <a href="http://instagram.com/theharveybakery" target="_blank"><img src="img/instagramIcon.png" alt="Instagram" class="img-fluid"></a>
                 </div>
             </div>
-            <div>
-                <ul class="nav justify-content-end">
+            <div class="col-10 navDiv">
+                <ul class="nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
