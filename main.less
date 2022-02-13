@@ -39,6 +39,11 @@ header {
     transform: translate(-50%, -50%);
     color: @accent-blue;
     font-family: HeeboBlack;
+    width: 80%;
+    text-align: center;
+    h1 {
+        font-size: 4vw;
+    }
 }
 
 .button {
@@ -52,7 +57,7 @@ header {
     background-color: @accent-blue;
     font-family: HeeboBlack;
     font-size: 50px;
-    border-radius: 5%;
+    border-radius: 10%;
 }
 
 .btn:hover {
@@ -72,6 +77,42 @@ header {
 .mapIframe {
     display: flex;
     justify-content: center;
+}
+
+.carousel-item {
+    div {
+        img {
+            padding: 10%;
+        }
+    }
+    .carouselInfo {
+        padding: 3%;
+        .btn {
+            font-size: 15px;
+        }
+        .carouselSocial {
+            padding-top: 10px;
+            div {
+                padding: 0;
+            }
+            img {
+                height: 50%;
+            }
+            p {
+                padding-top: 5px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 50px;
+    filter: invert(1);
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 2.5;
 }
 
 footer {
@@ -101,50 +142,42 @@ h2 {
 
 .breakfast {
     background-color: @secondary-teal;
-    max-width: 80%;
-    padding: 80px;
-    margin: auto;
-    border-radius: 10px;
-    color: @accent-blue;
-    font-family: HeeboBlack;
+    text-align: center;
 }
 
 .lunch {
     background-color: @primary-yellow;
-    max-width: 80%;
-    padding: 80px;
-    margin: auto;
-    border-radius: 10px;
-    color: @accent-blue;
-    font-family: HeeboBlack;
-    margin-bottom: 80px;
+    text-align: center;
 }
 
 .title {
     text-align: center;
     font-size: 50px;
     padding: 80px 0 0 0;
-    font-family: HeeboBlack;
-    color: @accent-blue;
 }
 
 .headline {
-    font-family: HeeboBlack;
+
 }
 
 .time {
     text-align: center;
-    font-family: HeeboBlack;
 }
 
 .top {
     text-align: center;
     font-size: 100px;
-    padding: 80px 80px 0 80px;
-    font-family: Malstyoor;
-    color: @secondary-orange;
+    padding: 80px;
 }
 
-.divider {
-    margin: 0 375px 0 375px;
+@media screen and (min-width: 991px) {
+    .mobileHomepage {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .desktopHomepage {
+        display: none;
+    }
 }
