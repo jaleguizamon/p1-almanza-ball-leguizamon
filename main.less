@@ -154,6 +154,16 @@ footer {
     }
 }
 
+.mobileFooter {
+    .nav {
+        align-content: flex-end;
+        text-align: right;
+        .nav-link {
+            font-size: 0.5em;
+        }
+    }
+}
+
 .foodItem {
     padding: 5%;
 }
@@ -197,7 +207,7 @@ h2 {
     .mobileHomepage {
         display: none;
     }
-    .mobileHeader {
+    .mobileHeader, .mobileFooter {
         display: none;
     }
 }
@@ -206,7 +216,7 @@ h2 {
     .desktopHomepage {
         display: none;
     }
-    .desktopHeader {
+    .desktopHeader, .desktopFooter {
         display: none;
     }
 
