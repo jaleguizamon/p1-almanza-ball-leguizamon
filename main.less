@@ -22,6 +22,29 @@ header {
     }
 }
 
+.mobileHeader {
+    justify-content: center;
+    .navbar {
+        width: 100%;
+    }
+    .col {
+        justify-content: end;
+    }
+    .navbar-nav {
+        padding-left: 5%;
+    }
+    .nav-link {
+            color: @secondary-orange;
+    }
+}
+
+.navbar-toggler {
+    border: none;
+    svg {
+        color: @secondary-orange;
+    }
+}
+
 .headerBanner {
     position: relative;
     img {
@@ -174,10 +197,17 @@ h2 {
     .mobileHomepage {
         display: none;
     }
+    .mobileHeader {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 990px) {
     .desktopHomepage {
         display: none;
     }
+    .desktopHeader {
+        display: none;
+    }
+
 }
