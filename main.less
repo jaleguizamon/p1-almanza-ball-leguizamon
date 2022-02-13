@@ -2,28 +2,23 @@
 @import "./mixins.less";
 
 
-//Chloe regular
+//Malstyoor regular
 @font-face {
-    font-family: Chloe;
-    src: url("fonts/Chloe.otf");
+    font-family: Malstyoor;
+    src: url("fonts/Malstyoor.otf");
 }
 
-//KADarling regular
+//Heebo Black
 @font-face {
-    font-family: KADarling;
-    src: url("fonts/KADarling.otf");
-}
-
-//Lulo Bold regular
-@font-face {
-    font-family: LuloBold;
-    src: url("fonts/Lulo.ttf");
+    font-family: HeeboBlack;
+    src: url("fonts/Heebo-Black.ttf");
 }
 
 header {
     background-color: @accent-tan;
-    .nav-link{
-        color: @secondary-orange;
+    font-family: HeeboBlack;
+    .navDiv {
+        .navDivStyle();
     }
 }
 
@@ -34,11 +29,19 @@ header {
 
 footer {
     background-color: @secondary-teal;
-    .nav-link{
-        color: @secondary-orange;
+    font-family: HeeboBlack;
+    .socialDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div {
+            margin: 15%;
+        }
+    }
+    .navDiv {
+        .navDivStyle();
     }
 }
-
 
 .breakfast {
     background-color: @secondary-teal;
