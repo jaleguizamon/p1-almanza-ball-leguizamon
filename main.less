@@ -122,7 +122,7 @@ header {
                 padding: 0;
             }
             img {
-                height: 5vw;
+                height: 50%;
             }
             p {
                 padding-top: 5px;
@@ -178,22 +178,29 @@ h2 {
 
 .breakfast {
     background-color: @secondary-teal;
-    text-align: center;
+    text-align: left;
+    font-family: HeeboBlack;
+    max-width: 800px;
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 40px;
 }
 
 .lunch {
     background-color: @primary-yellow;
-    text-align: center;
+    text-align: left;
+    font-family: HeeboBlack;
+    max-width: 800px;
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 40px;
 }
 
 .title {
     text-align: center;
     font-size: 50px;
     padding: 80px 0 0 0;
-}
-
-.headline {
-
+    font-family: HeeboBlack;
 }
 
 .time {
@@ -208,48 +215,16 @@ h2 {
     color: @secondary-orange;
 }
 
-.join {
-    display: block;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 3%;
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    opacity: 40%;
 }
- .team, .apply, .cater {
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 3%;
- }
-
-.catering {
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 3%;
-    margin: 6%;
-}
-
-.containerAbout{
-    margin: 3%;
-}
-
-.baked {
-    width: 20%;
-}
-
-.form {
-    background-color: #dfd2c4;
-    text-align: center;
-    display: block;
-    margin: 3%;
-}
-
-p {
-    font-family: HeeboBlack;
-    src: url("fonts/Heebo-Black.ttf");
+.menubanner {
+    padding-bottom: 10px;
+    object-fit: cover;
+    filter: opacity(40%);
+    width: 100%;
 }
 
 @media screen and (min-width: 991px) {
@@ -268,4 +243,5 @@ p {
     .desktopHeader, .desktopFooter {
         display: none;
     }
+
 }
