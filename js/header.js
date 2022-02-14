@@ -35,7 +35,7 @@ class Header extends HTMLElement{
             <a class="col-3 navbar-brand" href="index.html"><img src="img/HarveyLogo.png" alt="Harvey Logo" class="img-fluid"></a>
             
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile"
-            aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg></button>
             
